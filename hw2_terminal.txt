@@ -1,0 +1,27 @@
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+
+curl http://162.55.220.72:5005/terminal-hw-request
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 (из hw1)
+
+
+
+
+Vim dd.sh – открывает скрипт для написания, i- начать изменения, esc- закончить, :wq - выйти
+
+chmod +x dd.sh – сделать файл исполняемым (промежуточное звено)
+
+./dd.sh – запустить скрипт
+
+
+cd hw1
+mkdir hw_1 hw_2 hw_3
+cd hw_1
+touch hw1.txt hw2.txt hw3.txt hw4.json hw5.json
+mkdir new1 new2 new3
+ls -la
+mv /c/Тестирование/30new/hwnew/hw1/hw_1/hw1.txt /c/Тестирование/30new/hwnew/hw1/hw_1/hw2.txt /c/Тестирование/30new/hwnew/hw1/hw_1/new1
+
+
